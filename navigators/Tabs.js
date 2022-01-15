@@ -25,11 +25,6 @@ const Tabs = ()=>{
                     return <Icon name="account-group" color={focused?"#ffffff":"white"} size={focused?30:20}/>
                 }
             }}/>
-            <Tab.Screen name="Review" component={Review} options={{
-                tabBarIcon:({focused,color,size})=>{
-                    return <Icon name="card-text" color={focused?"#ffffff":"white"} size={focused?30:20}/>
-                }
-            }}/>
         </Tab.Navigator>
     )
 }
